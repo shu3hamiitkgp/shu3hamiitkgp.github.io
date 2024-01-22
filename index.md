@@ -10,7 +10,9 @@ I'm open to partnering for work and exciting opportunities. Look forward to conn
 
 <div align=center>
 
+
   [Download Resume](/pdf/Resume_SG.pdf)
+
 
 </div>
 
