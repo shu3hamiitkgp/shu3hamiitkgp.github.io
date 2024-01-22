@@ -24,7 +24,7 @@
 - Researched DIME data to formulate a network among the monetary contributions in US Federal Elections
 - Leveraged network science principles to showcase scale-free properties, and ideology-based communities among contributors 
 <div align=center>
-<img src="images/DIme Network 2012 Elections.png" width=250 height=300/> <img src="images/IMG_9671.JPG" width=200/>
+<img src="images/DIme Network 2012 Elections.png" width=250 height=150/> <img src="images/IMG_9671.JPG" width=200/>
 </div>
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shu3hamiitkgp/DIME-Network-Analysis)
