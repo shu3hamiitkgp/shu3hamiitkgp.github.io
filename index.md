@@ -9,10 +9,10 @@ Before this, I enjoyed my work in Credit & Fraud Risk Data Science at American E
 I'm open to partnering for work and exciting opportunities. Look forward to connecting!
 
 <div align=center>
-
+  
   [Download Resume](/pdf/Resume_SG.pdf)
+  
 </div>
-<br>
 
  [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:goyal.shubh15@gmail.com)
 
