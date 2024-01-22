@@ -14,8 +14,6 @@ I'm open to partnering for work and exciting opportunities. Look forward to conn
   
 </div>
 
- [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:goyal.shubh15@gmail.com)
-
 ## Latest Work 
 
 ### LES Weather Forecasting - Multi-Modal Model Approach
@@ -71,3 +69,4 @@ I'm open to partnering for work and exciting opportunities. Look forward to conn
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shu3hamiitkgp/VaniVerse)
 
 ---
+Feel Free to email -  [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:goyal.shubh15@gmail.com)
