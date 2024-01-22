@@ -7,13 +7,9 @@ I'm a Data Scientist and Product Developer based in Boston, Massachusetts. In my
 Before this, I enjoyed my work in Credit & Fraud Risk Data Science at American Express, where I started as a fresh graduate from IIT Kharagpur in India.
 
 I'm open to partnering for work and exciting opportunities. Look forward to connecting!
-
-<div align=center>
   
-  [Download Resume](/pdf/Resume_SG.pdf)
+[Download Resume](/pdf/Resume_SG.pdf)
   
-</div>
-
 ## Latest Work 
 
 ### LES Weather Forecasting - Multi-Modal Model Approach
