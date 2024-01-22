@@ -1,11 +1,20 @@
 ## Portfolio
 
-### About Me
+## About Me
 
-[Download Resume](/pdf/Resume_SG.pdf)
+I'm a Data Scientist and Product Developer based in Boston, Massachusetts. In my recent stint at Graduate school, I tried my hands on a variety of topics in the data ecosystem viz. Applied Deep Learning, Data Engineering, and Network Science. I developed a growing interest in Applied research, and end-to-end ML product development, and wish to continue similar work in my next role.
 
+Before this, I enjoyed my work in Credit & Fraud Risk Data Science at American Express, where I started as a fresh graduate from IIT Kharagpur in India.
 
-### Work Experience
+I'm open to partnering for work and exciting opportunities. Look forward to connecting!
+
+<div align=center>
+
+  [Download Resume](/pdf/Resume_SG.pdf)
+
+</div>
+
+ [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:goyal.shubh15@gmail.com)
 
 ## Latest Work 
 
@@ -17,6 +26,16 @@
 <img src="images/Predictions2.png"/>
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shu3hamiitkgp/LES-Precipitation-Forecasting-Multi-Modal-Architecture)
+
+---
+### TravelBud - AI Tool for Travel planning
+
+- Developed a travel itinerary-generating application optimized based on user areas of interest, budget, and destination
+- Leveraged RapidAPI for flight, hotel data, and OPENAI GPT3 for chat completion coupled in a cloud ecosystem
+
+<img src="images/TravelBud_Architecture_Diagram.jpeg"/>
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shu3hamiitkgp/TravelBud)
 
 ---
 
@@ -39,17 +58,6 @@
 </div>
 
 [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/16PXPgmUzvlOt_x3_S7xSzGZnyMC3hiVO/view?usp=drive_link)
-
----
-
-### TravelBud - AI Tool for Travel planning
-
-- Developed a travel itinerary-generating application optimized based on user areas of interest, budget, and destination
-- Leveraged RapidAPI for flight, hotel data, and OPENAI GPT3 for chat completion coupled in a cloud ecosystem
-
-<img src="images/TravelBud_Architecture_Diagram.jpeg"/>
-
-[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shu3hamiitkgp/TravelBud)
 
 ---
 
