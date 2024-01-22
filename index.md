@@ -31,7 +31,9 @@
 
 ---
 ### Founder - GrocerEase: Smart Digitization of Groceries
-GrocerEase is a new-age startup helping its users digitize the process of tracking groceries efficiently and simply. We address a very common problem of forgetfulness among grocery shoppers, which results in redundant purchases and food wastage quite often. In GrocerEase, the user just needs to click a picture of the grocery purchase receipt, and the app automatically digitizes the items, along with their quantity in a tabular format, and additionally estimates a tentative expiry date based on the internal database to give out expiry alerts, such that the product can be used before it's about to expire. We use **Deep learning** and **Computer Vision** under the hood to develop our product and finished among the Top 5 finalists in the Husky Startup challenge at Northeastern University (A student-led startup incubator by the Entrepreneurship Cell)
+- GrocerEase is a new-age startup helping its users digitize the process of tracking groceries efficiently and simply. We address a very common problem of forgetfulness among grocery shoppers, which results in redundant purchases and food wastage quite often.
+- The user just needs to click a picture of the grocery purchase receipt, and the app automatically digitizes the items, along with their quantity in a tabular format, and additionally estimates a tentative expiry date based on the internal database to give out expiry alerts, such that the product can be used before it's about to expire.We use **Deep learning** and **Computer Vision** under the hood to develop our product
+- Finished among the Top 5 finalists competing for $10K seed funding in the Husky Startup challenge at Northeastern University (A student-led startup incubator by the Entrepreneurship Cell)
 <div align=center>
 <img src="images/NCW00398.jpg" width=200/> <img src="images/NCW00606.jpg" width=200/> 
 </div>
