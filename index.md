@@ -4,7 +4,7 @@
 
 I'm a Data Scientist and Product Developer based in Boston, Massachusetts. In my recent stint at Graduate school, I tried my hands on a variety of topics in the data ecosystem viz. Applied Deep Learning, Data Engineering, and Network Science. I developed a growing interest in Applied research, and end-to-end ML product development, and wish to continue similar work in my next role.
 
-Before this, I enjoyed my work in Credit & Fraud Risk Data Science at American Express, where I started as a fresh graduate from IIT Kharagpur in India.
+Before this, I enjoyed my work in Credit & Fraud Risk Data Science at American Express, where I got a chance to work on both Modeling and Risk Strategy fronts contributing to Global Collections and US Commercial limits teams.
 
 I'm open to partnering for work and exciting opportunities. Look forward to connecting!
   
