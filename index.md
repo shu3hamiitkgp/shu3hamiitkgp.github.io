@@ -65,4 +65,16 @@ I'm open to partnering for work and exciting opportunities. Look forward to conn
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shu3hamiitkgp/VaniVerse)
 
 ---
+### Hindi Seq2Seq Model - Generating Hindi poems with RNN
+- Trained a Sequence Model on a corpus of Hindi Poems to generate new sentences leveraging NLP, text processing principles 
+- Used pre-trained tokenizing and word embeddings for the Hindi language developed by AI4Bharat
+<div align=center>
+<img src="images/Hindi_Poem_Predictions.png" width=400/>
+</div>
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shu3hamiitkgp/Hindi-Seq2Seq-Model--Generating-Hindi-Poems-using-RNN)
+
+---
+
+
 Feel Free to email -  [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:goyal.shubh15@gmail.com)
