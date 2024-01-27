@@ -10,6 +10,9 @@
       
       gtag('config', '{{ site.google_analytics }}');
    </script>
+   <style>
+      .custom-wrapper{ width:100% !important;}
+   </style>
    {% endif %}
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,7 +24,7 @@
    <![endif]-->
 </head>
 <body>
-   <div class="wrapper">
+   <div class="wrapper custom-wrapper">
       <header>
          <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
          {% if site.logo %}
