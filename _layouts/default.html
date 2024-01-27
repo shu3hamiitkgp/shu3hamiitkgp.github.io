@@ -11,7 +11,7 @@
       gtag('config', '{{ site.google_analytics }}');
    </script>
    <style>
-      .custom-wrapper{ width:100% !important;}
+      .custom-wrapper{ width:60% !important;}
    </style>
    {% endif %}
    <meta charset="UTF-8">
@@ -25,7 +25,7 @@
 </head>
 <body>
    <div class="wrapper custom-wrapper">
-      <header>
+      <header style="width:15% !important;">
          <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
          {% if site.logo %}
          <img src="{{site.logo | relative_url}}" alt="Logo" />
@@ -45,7 +45,7 @@
          </ul>
          {% endif %}
       </header>
-      <section>
+      <section style="width:60% !important;">
          {{ content }}
       </section>
       <footer>
