@@ -77,8 +77,12 @@ I'm open to partnering for work and exciting opportunities. Look forward to conn
 ---
 
 ### Runner’s High: Reflecting on Runs in ‘22
-In 2022, I took on running as a hobby and set a target of running 500km over the calendar year. Reflecting on the runs, I used Python to visualize the geospatial data collected over the year on Strava, sharing some thoughts and insights!<div align=center>
+In 2022, I took on running as a hobby and set a target of running 500km over the calendar year. Reflecting on the runs, I used Python to visualize the geospatial data collected over the year on Strava, sharing some thoughts and insights!
+
+<div align=center>
+
 <img src="images/download.png" width=400/>
+
 </div>
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/shu3hamiitkgp/strava_py) [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@goyal.shubh15/runners-high-reflecting-on-runs-in-22-723b991094ea)
