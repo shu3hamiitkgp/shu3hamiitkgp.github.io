@@ -19,7 +19,7 @@ I'm open to partnering for work and exciting opportunities. Look forward to conn
 <img src="images/Predictions1.png"/>
 <img src="images/Predictions2.png"/>
 
-[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shu3hamiitkgp/LES-Precipitation-Forecasting-Multi-Modal-Architecture)
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/shu3hamiitkgp/LES-Precipitation-Forecasting-Multi-Modal-Architecture)
 
 ---
 ### TravelBud - AI Tool for Travel planning
@@ -29,7 +29,7 @@ I'm open to partnering for work and exciting opportunities. Look forward to conn
 
 <img src="images/TravelBud_Architecture_Diagram.jpeg"/>
 
-[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shu3hamiitkgp/TravelBud)
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/shu3hamiitkgp/TravelBud)
 
 ---
 
@@ -40,7 +40,7 @@ I'm open to partnering for work and exciting opportunities. Look forward to conn
 <img src="images/DIme Network 2012 Elections.png" width=250 height=150/> <img src="images/IMG_9671.JPG" width=200/>
 </div>
 
-[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shu3hamiitkgp/DIME-Network-Analysis)
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/shu3hamiitkgp/DIME-Network-Analysis)
 
 ---
 ### Founder - GrocerEase: Smart Digitization of Groceries
@@ -62,7 +62,7 @@ I'm open to partnering for work and exciting opportunities. Look forward to conn
 <img src="images/VaniVerse.png" width=400/>
 </div>
 
-[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shu3hamiitkgp/VaniVerse)
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/shu3hamiitkgp/VaniVerse)
 
 ---
 ### Hindi Seq2Seq Model - Generating Hindi poems with RNN
@@ -72,9 +72,17 @@ I'm open to partnering for work and exciting opportunities. Look forward to conn
 <img src="images/Hindi_Poem_Predictions.png" width=400/>
 </div>
 
-[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shu3hamiitkgp/Hindi-Seq2Seq-Model--Generating-Hindi-Poems-using-RNN)
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/shu3hamiitkgp/Hindi-Seq2Seq-Model--Generating-Hindi-Poems-using-RNN)
 
 ---
 
+### Runner’s High: Reflecting on Runs in ‘22
+In 2022, I took on running as a hobby and set a target of running 500km over the calendar year. Reflecting on the runs, I used Python to visualize the geospatial data collected over the year on Strava, sharing some thoughts and insights!<div align=center>
+<img src="images/download.png" width=400/>
+</div>
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/shu3hamiitkgp/strava_py) [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@goyal.shubh15/runners-high-reflecting-on-runs-in-22-723b991094ea)
+
+---
 
 Feel Free to email -  [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:goyal.shubh15@gmail.com)
