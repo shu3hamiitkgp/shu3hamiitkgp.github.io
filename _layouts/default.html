@@ -14,7 +14,7 @@
       .body-style{ padding:0px !important;}
       .custom-wrapper{ width:60% !important;}
       .custom-header {
-         width:15% !important;
+         width:20% !important;
       }
       .custom-section{
          width:60% !important;
@@ -59,7 +59,7 @@
       <header class="custom-header">
          <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
          {% if site.logo %}
-         <img src="{{site.logo | relative_url}}" alt="Logo" />
+         <img src="{{site.logo | relative_url}}" alt="Logo" style="width:95%" />
          {% endif %}
          <p>{{ site.description | default: site.github.project_tagline }}</p>
          {% if site.github.is_project_page %}
