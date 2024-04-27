@@ -12,6 +12,15 @@ I'm open to partnering for work and exciting opportunities. Look forward to conn
   
 ## Latest Work 
 
+### CineSphere - Movie Recommending Chatbot Using Knowledge Graphs
+- Developed a chatbot using GPT4 with multi-agent LangChain Framework and Knowledge Graph over 45K movies 
+- Leveraged OpenAI Function Calling, Vector Indexing, and Node similarity algorithms to create robust chat interface and recommendations
+
+<img src="images/cinesphere_logo.jpg"/>
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/shu3hamiitkgp/CineSphere)
+
+
 ### LES Weather Forecasting - Multi-Modal Model Approach
 - Developed a classic Encoder-Decoder architecture using ConvLSTM and LSTM for weather forecasting at Lake Michigan 
 - Used satellite images and meteorological data to create the model attaining a recall of 0.85 on a highly imbalanced data
