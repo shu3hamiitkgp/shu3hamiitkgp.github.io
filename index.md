@@ -41,6 +41,14 @@ I'm open to partnering for work and exciting opportunities. Look forward to conn
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/shu3hamiitkgp/TravelBud)
 
 ---
+### A/B Test — Understanding causal relationships in experiments
+- Published an article on A/B tests to understand implementation and how they can help understand causal relationships in experiments.
+
+<img src='https://miro.medium.com/v2/resize:fit:720/format:webp/0*anMiE3EhonCXUbkP'/>
+
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/aiskunks/a-b-test-understanding-causal-relationships-in-experiments-2a7a0661b276)
+
+---
 
 ### DIME(Database on Ideology, Money in Politics, and Elections) Network Analysis
 - Researched DIME data to formulate a network among the monetary contributions in US Federal Elections
