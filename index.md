@@ -1,126 +1,109 @@
----
-layout: default
----
+## Portfolio
 
 ## About Me
 
-I'm a Data Scientist and ML Engineer based in Boston, Massachusetts. My work spans Applied Deep Learning, Data Engineering, and Network Science — with a growing focus on end-to-end ML product development and applied research.
+I'm a Data Scientist and Product Developer based in Boston, Massachusetts. In my recent stint at Graduate school, I tried my hands on a variety of topics in the data ecosystem viz. Applied Deep Learning, Data Engineering, and Network Science. I developed a growing interest in Applied research, and end-to-end ML product development, and wish to continue similar work in my next role.
 
-Previously, I worked in Credit & Fraud Risk Data Science at **American Express**, contributing to Global Collections and US Commercial Limits teams across modeling and risk strategy.
+Before this, I enjoyed my work in Credit & Fraud Risk Data Science at American Express, where I got a chance to work on both Modeling and Risk Strategy fronts contributing to Global Collections and US Commercial limits teams.
 
-I'm open to exciting opportunities and collaborations — let's connect!
+I'm open to partnering for work and exciting opportunities. Look forward to connecting!
+  
+[Download Resume](/pdf/Resume_SG.pdf)
+  
+## Latest Work 
 
-## Latest Work
+### CineSphere - Movie Recommending Chatbot Using Knowledge Graphs
+- Developed a chatbot using GPT4 with multi-agent LangChain Framework and Knowledge Graph over 45K movies 
+- Leveraged OpenAI Function Calling, Vector Indexing, and Node similarity algorithms to create robust chat interface and recommendations
 
-<div class="project-card">
-<h3>CineSphere — Movie Recommending Chatbot Using Knowledge Graphs</h3>
-<ul>
-<li>Developed a chatbot using GPT-4 with multi-agent LangChain Framework and a Knowledge Graph over 45K movies</li>
-<li>Leveraged OpenAI Function Calling, Vector Indexing, and Node Similarity algorithms for robust recommendations</li>
-</ul>
-<img src="images/cinesphere_logo.jpg" alt="CineSphere"/>
-<div class="badge-row">
-<a href="https://github.com/shu3hamiitkgp/CineSphere" target="_blank"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="GitHub"/></a>
-</div>
-</div>
+<img src="images/cinesphere_logo.jpg"/>
 
-<div class="project-card">
-<h3>LES Weather Forecasting — Multi-Modal Model</h3>
-<ul>
-<li>Designed an Encoder-Decoder architecture using ConvLSTM and LSTM for weather forecasting at Lake Michigan</li>
-<li>Combined satellite imagery with meteorological data; achieved recall of 0.85 on highly imbalanced data</li>
-</ul>
-<img src="images/Predictions1.png" alt="Predictions 1"/>
-<img src="images/Predictions2.png" alt="Predictions 2"/>
-<div class="badge-row">
-<a href="https://github.com/shu3hamiitkgp/LES-Precipitation-Forecasting-Multi-Modal-Architecture" target="_blank"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="GitHub"/></a>
-</div>
-</div>
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/shu3hamiitkgp/CineSphere)
 
-<div class="project-card">
-<h3>TravelBud — AI Tool for Travel Planning</h3>
-<ul>
-<li>Built a travel itinerary-generating app optimized for user interests, budget, and destination</li>
-<li>Leveraged RapidAPI for flight &amp; hotel data and OpenAI GPT-3 for chat completion in a cloud ecosystem</li>
-</ul>
-<img src="images/TravelBud_Architecture_Diagram.jpeg" alt="TravelBud Architecture"/>
-<div class="badge-row">
-<a href="https://github.com/shu3hamiitkgp/TravelBud" target="_blank"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="GitHub"/></a>
-</div>
-</div>
 
-<div class="project-card">
-<h3>A/B Test — Understanding Causal Relationships in Experiments</h3>
-<ul>
-<li>Published an in-depth article explaining A/B test implementation and how they reveal causal relationships in experiments</li>
-</ul>
-<img src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*anMiE3EhonCXUbkP" alt="A/B Test"/>
-<div class="badge-row">
-<a href="https://medium.com/aiskunks/a-b-test-understanding-causal-relationships-in-experiments-2a7a0661b276" target="_blank"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/></a>
-</div>
-</div>
+### LES Weather Forecasting - Multi-Modal Model Approach
+- Developed a classic Encoder-Decoder architecture using ConvLSTM and LSTM for weather forecasting at Lake Michigan 
+- Used satellite images and meteorological data to create the model attaining a recall of 0.85 on a highly imbalanced data
 
-<div class="project-card">
-<h3>DIME Network Analysis — US Federal Election Money</h3>
-<ul>
-<li>Researched DIME data to map monetary contribution networks in US Federal Elections</li>
-<li>Applied network science to reveal scale-free properties and ideology-based contributor communities</li>
-</ul>
-<div class="img-row">
-<img src="images/DIme Network 2012 Elections.png" alt="DIME Network"/>
-<img src="images/IMG_9671.JPG" alt="DIME Chart"/>
-</div>
-<div class="badge-row">
-<a href="https://github.com/shu3hamiitkgp/DIME-Network-Analysis" target="_blank"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="GitHub"/></a>
-</div>
+<img src="images/Predictions1.png"/>
+<img src="images/Predictions2.png"/>
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/shu3hamiitkgp/LES-Precipitation-Forecasting-Multi-Modal-Architecture)
+
+---
+### TravelBud - AI Tool for Travel planning
+
+- Developed a travel itinerary-generating application optimized based on user areas of interest, budget, and destination
+- Leveraged RapidAPI for flight, hotel data, and OPENAI GPT3 for chat completion coupled in a cloud ecosystem
+
+<img src="images/TravelBud_Architecture_Diagram.jpeg"/>
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/shu3hamiitkgp/TravelBud)
+
+---
+### A/B Test — Understanding causal relationships in experiments
+- Published an article on A/B tests to understand implementation and how they can help understand causal relationships in experiments.
+
+<img src='https://miro.medium.com/v2/resize:fit:720/format:webp/0*anMiE3EhonCXUbkP'/>
+
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/aiskunks/a-b-test-understanding-causal-relationships-in-experiments-2a7a0661b276)
+
+---
+
+### DIME(Database on Ideology, Money in Politics, and Elections) Network Analysis
+- Researched DIME data to formulate a network among the monetary contributions in US Federal Elections
+- Leveraged network science principles to showcase scale-free properties, and ideology-based communities among contributors 
+<div align=center>
+<img src="images/DIme Network 2012 Elections.png" width=250 height=150/> <img src="images/IMG_9671.JPG" width=200/>
 </div>
 
-<div class="project-card">
-<h3>GrocerEase — Smart Digitization of Groceries <em>(Founder)</em></h3>
-<ul>
-<li>Built an app that digitizes grocery receipts via photo capture using Deep Learning and Computer Vision</li>
-<li>Automatically tracks items, quantities, and estimates expiry dates to reduce food waste</li>
-<li><strong>Top 5 finalist</strong> competing for $10K seed funding at Husky Startup Challenge, Northeastern University</li>
-</ul>
-<div class="img-row">
-<img src="images/NCW00398.jpg" alt="GrocerEase 1"/>
-<img src="images/NCW00606.jpg" alt="GrocerEase 2"/>
-</div>
-<div class="badge-row">
-<a href="https://drive.google.com/file/d/16PXPgmUzvlOt_x3_S7xSzGZnyMC3hiVO/view?usp=drive_link" target="_blank"><img src="https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" alt="Google Drive"/></a>
-</div>
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/shu3hamiitkgp/DIME-Network-Analysis)
+
+---
+### Founder - GrocerEase: Smart Digitization of Groceries
+- GrocerEase is a new-age startup helping its users digitize the process of tracking groceries efficiently and simply. We address a very common problem of forgetfulness among grocery shoppers, which results in redundant purchases and food wastage quite often.
+- The user just needs to click a picture of the grocery purchase receipt, and the app automatically digitizes the items, along with their quantity in a tabular format, and additionally estimates a tentative expiry date based on the internal database to give out expiry alerts, such that the product can be used before it's about to expire.We use **Deep learning** and **Computer Vision** under the hood to develop our product
+- Finished among the Top 5 finalists competing for $10K seed funding in the Husky Startup challenge at Northeastern University (A student-led startup incubator by the Entrepreneurship Cell)
+<div align=center>
+<img src="images/NCW00398.jpg" width=200/> <img src="images/NCW00606.jpg" width=200/> 
 </div>
 
-<div class="project-card">
-<h3>VaniVerse — Conversational AI for Audio</h3>
-<ul>
-<li>Conversational AI platform that generates prompts from uploaded audio files</li>
-<li>Leveraged OpenAI Whisper &amp; GPT API with Airflow for concurrent audio processing and prompt generation</li>
-</ul>
-<img src="images/VaniVerse.png" alt="VaniVerse"/>
-<div class="badge-row">
-<a href="https://github.com/shu3hamiitkgp/VaniVerse" target="_blank"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="GitHub"/></a>
-</div>
+[![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/16PXPgmUzvlOt_x3_S7xSzGZnyMC3hiVO/view?usp=drive_link)
+
+---
+
+### VaniVerse
+- VaniVerse is a conversational AI platform that can be used to generate prompts for a given audio file
+- OPENAI Whisper & GPT API are leveraged to process audio files and generate prompts simultaneously using Airflow 
+<div align=center>
+<img src="images/VaniVerse.png" width=400/>
 </div>
 
-<div class="project-card">
-<h3>Hindi Seq2Seq Model — Generating Hindi Poems with RNN</h3>
-<ul>
-<li>Trained a Sequence Model on a corpus of Hindi poems to generate new text using NLP and text processing</li>
-<li>Used pre-trained Hindi tokenization and word embeddings from AI4Bharat</li>
-</ul>
-<img src="images/Hindi_Poem_Predictions.png" alt="Hindi Poem Predictions"/>
-<div class="badge-row">
-<a href="https://github.com/shu3hamiitkgp/Hindi-Seq2Seq-Model--Generating-Hindi-Poems-using-RNN" target="_blank"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="GitHub"/></a>
-</div>
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/shu3hamiitkgp/VaniVerse)
+
+---
+### Hindi Seq2Seq Model - Generating Hindi poems with RNN
+- Trained a Sequence Model on a corpus of Hindi Poems to generate new sentences leveraging NLP, text processing principles 
+- Used pre-trained tokenizing and word embeddings for the Hindi language developed by AI4Bharat
+<div align=center>
+<img src="images/Hindi_Poem_Predictions.png" width=400/>
 </div>
 
-<div class="project-card">
-<h3>Runner's High — Reflecting on Runs in '22</h3>
-<p>In 2022, I set a goal to run 500 km over the calendar year. I used Python to visualize geospatial data collected via Strava, sharing insights on the journey.</p>
-<img src="images/download.png" alt="Strava Map"/>
-<div class="badge-row">
-<a href="https://github.com/shu3hamiitkgp/strava_py" target="_blank"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="GitHub"/></a>
-<a href="https://medium.com/@goyal.shubh15/runners-high-reflecting-on-runs-in-22-723b991094ea" target="_blank"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/></a>
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/shu3hamiitkgp/Hindi-Seq2Seq-Model--Generating-Hindi-Poems-using-RNN)
+
+---
+
+### Runner’s High: Reflecting on Runs in ‘22
+In 2022, I took on running as a hobby and set a target of running 500km over the calendar year. Reflecting on the runs, I used Python to visualize the geospatial data collected over the year on Strava, sharing some thoughts and insights!
+
+<div align=center>
+
+<img src="images/download.png" width=400/>
+
 </div>
-</div>
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/shu3hamiitkgp/strava_py) [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@goyal.shubh15/runners-high-reflecting-on-runs-in-22-723b991094ea)
+
+---
+
+Feel Free to email -  [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:goyal.shubh15@gmail.com)
