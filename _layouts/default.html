@@ -7,35 +7,8 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      
       gtag('config', '{{ site.google_analytics }}');
    </script>
-   <style>
-      .body-style{ padding:0px !important;}
-      .custom-wrapper{ width:60% !important;}
-      .custom-header {
-         width:20% !important;
-      }
-      .custom-section{
-         width:60% !important;
-      }
-      .nav{display: flex;
-          justify-content: end;}
-      .nav-links{margin: 10px;
-                font-size: 1.125rem;
-                font-weight: 700;}
-      @media screen and (max-width: 450px) {
-          .custom-wrapper{ width:100% !important;}
-          .custom-header {
-            width:100% !important;
-            }
-          .custom-section{
-            width:100% !important;
-         }
-         }
-      
-      
-   </style>
    {% endif %}
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -45,21 +18,73 @@
    <!--[if lt IE 9]>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
    <![endif]-->
+   <style>
+      /* Layout */
+      body.body-style { padding: 0 !important; margin: 0; overflow-x: hidden; }
+      .custom-wrapper { width: 60% !important; position: relative; z-index: 1; }
+      .custom-header { width: 20% !important; }
+      .custom-section { width: 60% !important; }
+
+      @media screen and (max-width: 450px) {
+         .custom-wrapper { width: 100% !important; }
+         .custom-header { width: 100% !important; }
+         .custom-section { width: 100% !important; }
+      }
+
+      /* Nav */
+      .nav { display: flex; justify-content: end; }
+      .nav-links {
+         margin: 10px;
+         font-size: 1.125rem;
+         font-weight: 700;
+      }
+
+      /* Interactive background canvas */
+      #bg-canvas {
+         position: fixed;
+         top: 0; left: 0;
+         width: 100%; height: 100%;
+         z-index: 0;
+         pointer-events: none;
+      }
+
+      /* Profile image */
+      .profile-img-wrapper {
+         display: flex;
+         justify-content: center;
+         margin: 16px 0 12px;
+      }
+      .profile-img {
+         width: 160px;
+         height: 160px;
+         border-radius: 50%;
+         object-fit: cover;
+         object-position: center top;
+         border: 3px solid rgba(255,255,255,0.6);
+         box-shadow: 0 4px 24px rgba(0,0,0,0.18), 0 0 0 6px rgba(155,135,245,0.15);
+         transition: box-shadow 0.3s ease, transform 0.3s ease;
+      }
+      .profile-img:hover {
+         box-shadow: 0 8px 32px rgba(0,0,0,0.22), 0 0 0 8px rgba(155,135,245,0.28);
+         transform: scale(1.04);
+      }
+   </style>
 </head>
 <body class="body-style">
+   <!-- Interactive background -->
+   <canvas id="bg-canvas"></canvas>
+
    <div class="wrapper custom-wrapper">
       <nav class="nav">
-        <span class="nav-links">
-            <a href="/"> About </a>
-        </span>
-        <span class="nav-links">
-            <a href="https://medium.com/@goyal.shubh15"> Blog </a>
-        </span>
-       </nav>
+        <span class="nav-links"><a href="/"> About </a></span>
+        <span class="nav-links"><a href="https://medium.com/@goyal.shubh15"> Blog </a></span>
+      </nav>
       <header class="custom-header">
          <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
          {% if site.logo %}
-         <img src="{{site.logo | relative_url}}" alt="Logo" style="width:95%" />
+         <div class="profile-img-wrapper">
+            <img src="{{site.logo | relative_url}}" alt="Profile photo" class="profile-img" />
+         </div>
          {% endif %}
          <p>{{ site.description | default: site.github.project_tagline }}</p>
          {% if site.github.is_project_page %}
@@ -83,9 +108,139 @@
          {% if site.github.is_project_page %}
          <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
          {% endif %}
-         
       </footer>
    </div>
    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+
+   <script>
+   (function () {
+      const canvas = document.getElementById('bg-canvas');
+      const ctx = canvas.getContext('2d');
+      let W, H, mouse = { x: -9999, y: -9999 };
+
+      /* ── Particle config ── */
+      const COUNT      = 90;
+      const MAX_DIST   = 140;    // connection distance
+      const CURSOR_R   = 180;    // cursor influence radius
+      const CURSOR_STR = 0.012;  // how strongly particles drift toward cursor
+      const DAMPING    = 0.97;
+      const BASE_SPEED = 0.35;
+
+      /* Palette — soft teals & purples */
+      const COLORS = ['#9b87f5', '#7dd3d9', '#a78bfa', '#60a5fa', '#f0abfc'];
+
+      function resize() {
+         W = canvas.width  = window.innerWidth;
+         H = canvas.height = window.innerHeight;
+      }
+      resize();
+      window.addEventListener('resize', resize);
+
+      window.addEventListener('mousemove', e => {
+         mouse.x = e.clientX;
+         mouse.y = e.clientY;
+      });
+      window.addEventListener('mouseleave', () => {
+         mouse.x = -9999;
+         mouse.y = -9999;
+      });
+
+      /* ── Build particles ── */
+      function rnd(a, b) { return a + Math.random() * (b - a); }
+
+      const particles = Array.from({ length: COUNT }, () => ({
+         x:  rnd(0, window.innerWidth),
+         y:  rnd(0, window.innerHeight),
+         vx: rnd(-BASE_SPEED, BASE_SPEED),
+         vy: rnd(-BASE_SPEED, BASE_SPEED),
+         r:  rnd(2, 4.5),
+         color: COLORS[Math.floor(Math.random() * COLORS.length)],
+         baseAlpha: rnd(0.35, 0.7),
+      }));
+
+      /* ── Animation loop ── */
+      function draw() {
+         ctx.clearRect(0, 0, W, H);
+
+         /* subtle gradient wash */
+         const grad = ctx.createLinearGradient(0, 0, W, H);
+         grad.addColorStop(0, 'rgba(15,12,35,0.06)');
+         grad.addColorStop(1, 'rgba(12,30,50,0.06)');
+         ctx.fillStyle = grad;
+         ctx.fillRect(0, 0, W, H);
+
+         /* update & draw each particle */
+         for (let i = 0; i < particles.length; i++) {
+            const p = particles[i];
+
+            /* cursor attraction */
+            const dx = mouse.x - p.x;
+            const dy = mouse.y - p.y;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+            if (dist < CURSOR_R && dist > 0) {
+               const force = (1 - dist / CURSOR_R) * CURSOR_STR;
+               p.vx += dx * force;
+               p.vy += dy * force;
+            }
+
+            p.vx *= DAMPING;
+            p.vy *= DAMPING;
+
+            /* clamp speed */
+            const speed = Math.sqrt(p.vx * p.vx + p.vy * p.vy);
+            if (speed > 2.2) { p.vx = p.vx / speed * 2.2; p.vy = p.vy / speed * 2.2; }
+
+            p.x += p.vx;
+            p.y += p.vy;
+
+            /* wrap edges */
+            if (p.x < -10) p.x = W + 10;
+            if (p.x > W + 10) p.x = -10;
+            if (p.y < -10) p.y = H + 10;
+            if (p.y > H + 10) p.y = -10;
+
+            /* glow based on cursor proximity */
+            const proximity = Math.max(0, 1 - dist / CURSOR_R);
+            const alpha = p.baseAlpha + proximity * 0.35;
+
+            ctx.beginPath();
+            ctx.arc(p.x, p.y, p.r + proximity * 2, 0, Math.PI * 2);
+            ctx.fillStyle = p.color + Math.round(alpha * 255).toString(16).padStart(2, '0');
+            ctx.fill();
+
+            /* connect nearby particles */
+            for (let j = i + 1; j < particles.length; j++) {
+               const q = particles[j];
+               const ex = p.x - q.x, ey = p.y - q.y;
+               const d = Math.sqrt(ex * ex + ey * ey);
+               if (d < MAX_DIST) {
+                  const lineAlpha = (1 - d / MAX_DIST) * 0.18;
+                  ctx.beginPath();
+                  ctx.moveTo(p.x, p.y);
+                  ctx.lineTo(q.x, q.y);
+                  ctx.strokeStyle = p.color + Math.round(lineAlpha * 255).toString(16).padStart(2, '0');
+                  ctx.lineWidth = 0.8;
+                  ctx.stroke();
+               }
+            }
+         }
+
+         /* cursor ripple */
+         if (mouse.x > 0) {
+            const ripple = ctx.createRadialGradient(mouse.x, mouse.y, 0, mouse.x, mouse.y, CURSOR_R * 0.55);
+            ripple.addColorStop(0, 'rgba(155,135,245,0.07)');
+            ripple.addColorStop(1, 'rgba(155,135,245,0)');
+            ctx.fillStyle = ripple;
+            ctx.beginPath();
+            ctx.arc(mouse.x, mouse.y, CURSOR_R * 0.55, 0, Math.PI * 2);
+            ctx.fill();
+         }
+
+         requestAnimationFrame(draw);
+      }
+
+      draw();
+   })();
+   </script>
 </body>
 </html>
