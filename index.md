@@ -2,13 +2,15 @@
 
 ## About Me
 
-I'm a Data Scientist and Product Developer based in Boston, Massachusetts. In my recent stint at Graduate school, I tried my hands on a variety of topics in the data ecosystem viz. Applied Deep Learning, Data Engineering, and Network Science. I developed a growing interest in Applied research, and end-to-end ML product development, and wish to continue similar work in my next role.
+I'm a Senior Data Scientist based in the Bay Area, building production ML systems at the intersection of risk intelligence and applied AI. I'm hacker/developer at heart, love to get my hands dirty at interesting problems.
 
-Before this, I enjoyed my work in Credit & Fraud Risk Data Science at American Express, where I got a chance to work on both Modeling and Risk Strategy fronts contributing to Global Collections and US Commercial limits teams.
+At BILL, I work on credit risk models, agentic LLM workflows, and semantic search systems that drive real business outcomes — from $5M+ in revenue uplift to automating complex underwriting processes end-to-end.
 
-I'm open to partnering for work and exciting opportunities. Look forward to connecting!
-  
-[Download Resume](/pdf/Resume_SG.pdf)
+Before BILL, I spent 3 years at American Express working across credit modeling and risk strategy for Global Collections and US Commercial teams — where I learned to build models that matter at scale.
+
+I'm currently exploring new opportunities in Data Science (Product, Finance, Strategic Intelligence), MLE, and Applied AI roles in the Bay Area. Open to connecting and collaborating. 
+
+[Download Resume](/pdf/SG_Resume.pdf)
   
 ## Latest Work 
 
